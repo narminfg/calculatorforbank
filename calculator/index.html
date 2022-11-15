@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input{
+            width: 15%;
+            height: 25px;
+            border-radius: 8px;
+            border: 2px solid purple;
+            outline: none;
+        }
+
+        button{
+            background-color: rgb(169, 39, 169);
+            width: 10%;
+            height: 25px;
+            border-radius: 8px  ;
+            border: 1px solid rgb(169, 39, 169);
+            outline: none;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    
+
+
+<input id="credit_amount" placeholder="enter the credit amount" type="text">
+<input id="time" placeholder="enter the time" type="text">
+<input id="percent" placeholder="enter the percent" type="text">
+<button id="btn" onclick="Calculator()">Calculate</button>
+<p>Total amount: <span id="total_amount"></span></p>
+<p>Montly payment: <span id="montly_payment"></span></p>
+    <script src="./js/app.js"></script>
+</body>
+</html>
